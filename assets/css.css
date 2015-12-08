@@ -1,0 +1,12 @@
+body
+{
+    background-image: url("../assets/background.jpg");
+    background-repeat:no-repeat;
+	
+}
+h1
+ {
+color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #81F7F3, 0 0 30px #81F7F3, 0 0 40px #81F7F3, 0 0 50px #81F7F3, 0 0 75px #81F7F3;
+	letter-spacing: 5px;
+	font: 80px 'MisoRegular';
