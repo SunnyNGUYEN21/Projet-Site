@@ -95,26 +95,7 @@ border: 21px outset #000000;
   border: 1px solid transparent;
   font-size: 16px;
 }
-#menu li.active {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #36b0b6;
-}
-#menu li.active a {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  display: block;
-  background: #1e6468;
-  border: 1px solid #133e40;
-  -moz-box-shadow: inset 0 5px 10px #133e40;
-  -webkit-box-shadow: inset 0 5px 10px #133e40;
-  box-shadow: inset 0 5px 10px #133e40;
+
 }
 #menu li:hover {
   -webkit-border-radius: 5px;
@@ -123,6 +104,7 @@ border: 21px outset #000000;
   -o-border-radius: 5px;
   border-radius: 5px;
   border: 1px solid #A4A4A4;
+  transition : 0.5s;
 }
 #menu li:hover a {
   -webkit-border-radius: 5px;
@@ -136,4 +118,67 @@ border: 21px outset #000000;
   -moz-box-shadow: inset 0 5px 10px #A4A4A4;
   -webkit-box-shadow: inset 0 5px 10px #A4A4A4;
   box-shadow: inset 0 5px 10px #133e40;
+  transition : 0.5s;
 }
+
+.barre  {
+	position : absolute;
+	top : 160px;
+	right : 435px;
+    width: 450px;
+    padding: 8px;
+    margin: 100px auto;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    
+    
+    border-radius: 10px;    
+    background-color: #424242;
+    background-image: linear-gradient(top, #2E4D96, #eae8e8);
+}
+
+.barre #search {
+    width: 330px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 16px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+    border-radius: 3px;      
+}
+
+
+.barre #search:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+} 
+
+.barre #submit {
+    float: right;    
+    border: 1px solid  #666565;
+    height: 42px;
+    width: 100px;
+    padding: 0;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #FFFFFF;
+    text-transform: uppercase;    
+    background-color:  #273b93;
+    background-image: linear-gradient(top, #31b2c3, #0483a0);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;      
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0  #666565;
+}
+  
+.barre #submit:hover,
+.barre #submit:focus {       
+    background-color:   #910d0d;
+    background-image: linear-gradient(top, #0483a0, #31b2c3);
+	transition : 0.5s;
+}   
+  
+
