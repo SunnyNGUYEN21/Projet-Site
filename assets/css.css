@@ -1,9 +1,12 @@
+
 body
 {
     background-image: url("../assets/background.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+	background-position: center center;
+	background-attachment:fixed;
+	background-size:100% 100%;
+	height:100%;
 }
 h1
  {
@@ -235,10 +238,10 @@ button {
 }
 form{
 	
-    margin: 0 auto;
+   position : center;
     width: 100%;
     padding: 1em;
-    border: px solid #CCC;
+    border: 0px solid #CCC;
     border-radius: 1em;
 }
 form div + div {
@@ -291,4 +294,32 @@ button:hover {
 	-moz-border-radius-topleft:16px;
 	-webkit-border-top-left-radius:16px;
 	border-top-left-radius:16px;
+}
+#inscription
+{
+    background-color : #FBF5EF;
+    border-radius: 10px;
+    width: 50%;
+    
+    margin-top: 330px;
+    position : absolute;
+    left : 480px;
+}
+#inscription
+{ text-align : center;
+    padding: 10px;
+}
+#valider
+{
+    background-color : #FBF5EF;
+    border-radius: 10px;
+    width: 50%;
+    
+    margin-top: 330px;
+    position : absolute;
+    left : 480px;
+}
+#valider
+{ text-align : center;
+    padding: 10px;
 }

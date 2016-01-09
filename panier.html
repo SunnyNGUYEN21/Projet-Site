@@ -13,9 +13,9 @@
         <nav>
             <div id='menu'>
 			<ul>
-                <li><a href="site.html">Accueil</a></li>
+                <li><a href="index.html">Accueil</a></li>
                 <li><a href="guitare.html">Guitare/Ampli</a></li>
-                <li><a href="ampli.html">Inscription</a></li>
+                <li><a href="inscription.html">Inscription</a></li>
 				<li><a href="panier.html">Panier(2)</a></li>
 				<li><a href="quisommesnous.html">Qui sommes-nous ?</a></li>
 				</ul>
@@ -58,18 +58,29 @@
 		<td><img src="assets/fenderpromo.jpg" width="20" height="60"><br></td>
 		<td>&nbsp;Fender Stratocaster<br>&nbsp;&nbsp;&nbsp;&nbsp; Couleur : Blanc<br></td>
 		<td>&nbsp;1200€</td>
-		<td>&nbsp;<br></td>
+		<td>&nbsp;<br><ol>
+<center>
+    <select name="select" onchange="updated(this)">
+    <option value="1">Livraison express 1 à 2 jours (9.5€]</option>
+    <option value="2">Livraison rapide 2 à 5 jours (5€)</option>
+    <option value="3">Livraion économique plus de 5 jours (gratuit)</option>
+</select></center>
 	</tr>
 	<tr>
-		<td><img src="assets/marshall.jpg"></td>
+		<td><img src="assets/marshall.jpg" width="20" height="60"></td>
 		<td>&nbsp;Marshall Ampli<br></td>
 		<td>&nbsp;700€</td>
-		<td>&nbsp;</td>
+		<td><center>
+    <select name="select" onchange="updated(this)">
+    <option value="1">Livraison express 1 à 2 jours (9.5€]</option>
+    <option value="2">Livraison rapide 2 à 5 jours (5€)</option>
+    <option value="3">Livraion économique plus de 5 jours (gratuit)</option>
+</select></center></td>
 	</tr>
 	</tbody>
 </table><br/>
-		
-	
+	<center>	
+	<a href="validation.html"><button>Continuer la commande</button></a>
 	
 	</aside>
 </body>
